@@ -4,17 +4,21 @@
   background-image: url("/linseed.jpg");
   background-size: cover;
   height: calc(100vh - $spacing-s * 2);
-  border-radius: $spacing-s;
+  border-radius: $radius-m;
 }
 
 .hero-content-wrapper {
-  height: $hero-content-height;
-  border-radius: $spacing-s;
-  overflow: hidden;
+  height: calc(100% - $navbar-height - $spacing-s);
+  border-radius: $radius-m;
+  background-color: wheat;
+  margin-top: calc($navbar-height + $spacing-s);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .section {
   padding: $spacing-s;
   margin: $spacing-s;
-  border-radius: $spacing-s;
+  border-radius: $radius-m;
+  overflow: hidden;
 }
