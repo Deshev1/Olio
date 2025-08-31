@@ -3,8 +3,6 @@
 .home {
   background-image: url("/linseed.jpg");
   background-size: cover;
-  padding: 0 $spacing-s;
-  margin: $spacing-s;
   height: calc(100vh - $spacing-s * 2);
   border-radius: $spacing-s;
 }
@@ -13,4 +11,10 @@
   height: $hero-content-height;
   border-radius: $spacing-s;
   overflow: hidden;
+}
+
+.section {
+  padding: $spacing-s;
+  margin: $spacing-s;
+  border-radius: $spacing-s;
 }
